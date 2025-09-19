@@ -1,45 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-
 <body>
-
     <header class="site-header">
-        <div class="logo"> <img src="https://www.tpilet.ee/faefcacd5ccdb53759f9e93de0ceeb85.svg" alt=""></div>
+        <!-- Logo -->
+        <div >
+            <img class="logo" src="https://www.tpilet.ee/faefcacd5ccdb53759f9e93de0ceeb85.svg" alt="">
+        </div>
+        <!-- Nagigatsioon -->
         <nav>
-            <a href="/index.html" class="active">Osta pilet</a>
+            <a href="" class="active"> Osta pilet</a>
             <a href="">Sõiduplaanid</a>
             <a href="">Pileti tagastamine</a>
             <a href="">Ärikliendileping</a>
             <a href="">Uudised</a>
             <a href="">Info</a>
         </nav>
-        
         <div class="header-right">
+            <!-- Tel ja email -->
             <div class="header-right-span">
                 <span>12550</span>
                 <span>info@tpilet.ee</span>
             </div>
-            <div class="langs">
-                <a href="">ET</a>
+            <!-- Keeled -->
+            <div class="languages">
+                <a href="" class="active">ET</a>
                 <a href="">EN</a>
                 <a href="">RU</a>
             </div>
         </div>
     </header>
 
-    <div class="notice">
-        <strong>NB!</strong>
-        <p>ilage piletile rakendub teenustasu 0,65 € ja nullpiletile 1 €</p>
-        <p>A service fee of €0,65 applies to each ticket and  €1 to a zero ticket</p>
-    </div>
-
+    <main class="hero">
+        <div class="search-box">
+            <div class="tabs">
+                <button class="active">ÜKS SUUND</button>
+                <button>EDASI TAGASI</button>
+            </div>
+            <form>
+                <input type="text" placeholder="Lähtepeatus">
+                <input type="text" placeholder="Sihtpeatus">
+                <input type="date" value="2025-09-19">
+                <button>OTSI REISE</button>
+            </form>
+            <div class="popular">
+                <h3>POPULAARSED SUUNAD</h3>
+                <ul>
+                    <li>Tallinn &gt; Tartu</li>
+                    <li>Tartu &gt; Tallinn</li>
+                    <li>Tallinn &gt; Pärnu</li>
+                    <li>Pärnu &gt; Tallinn</li>
+                    <li>Tallinn &gt; Narva</li>
+                    <li>Narva &gt; Tallinn</li>
+                    <li>Tallinn &gt; Viljandi</li>
+                    <li>Viljandi &gt; Tallinn</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    
 </body>
-
 </html>
